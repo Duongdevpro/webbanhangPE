@@ -1,0 +1,42 @@
+.admin-header {
+  height: 46px;
+  justify-content: space-between;
+  padding: 5px 20px;
+  align-items: center;
+  //animation: headerOpen ease 0.5s;
+}
+@keyframes headerOpen {
+  from {
+    transform: translateX(-270px);
+    opacity: 0;
+  }
+  to {
+    transform: translateX(0);
+    opacity: 1;
+  }
+}
+.admin-header-none {
+  //display: none;
+}
+.admin-header-icon {
+  cursor: pointer;
+  width: 35px;
+  margin-right: 20px;
+}
+.admin-header-icon:hover {
+  opacity: 0.6;
+}
+
+.admin-header-title {
+  font-size: 28px;
+  font-weight: 500;
+}
+.admin-header-name {
+  font-size: 24px;
+  font-weight: 400;
+  margin-right: 20px;
+}
+.admin-header-info img {
+  width: 35px;
+  height: 35px;
+}
